@@ -1,21 +1,27 @@
 const path = require("path");
+const fs = require("fs");
 const router = require("express").Router();
 
-// app.get("/api/notes", (req, res) => {
-    
-// })
+router.get("/api/notes", (req, res) => {
+    fs.readFile("db/db.json", (err, data) => {
+        if (err) {
+            res.send(404);
+        } else {
+            let results = JSON.parse(data);
+            res.json(results);
+        }
+    })
+});
 
-// app.post("/api/notes", (req, res) => {
+// router.post("/api/notes", (req, res) => {
 
-// })
+//     if 
+// });
 
-// const getNotes = () =>
-//   fetch('/api/notes', {
-//     method: 'GET',
-//     headers: {
-//       'Content-Type': 'application/json',
-//     },
-//   });
+// router.delete("/api/notes/:id", (req, res) => {
+
+// });
+
 
 // const saveNote = (note) =>
 //   fetch('/api/notes', {
