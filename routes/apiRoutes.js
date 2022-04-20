@@ -24,11 +24,11 @@ router.post("/notes", (req, res) => {
 });
 
 
-// router.delete("/notes/:id", (req, res) => {
-    // const notes = JSON.parse(fs.readFileSync("./db/db.json"));
-    
-//fs.writeFileSync("./db/db.json", JSON.stringify(deletedNote));
-// res.json(deletedNote);
-// });
+router.delete("/notes/:id", (req, res) => {
+    const notes = JSON.parse(fs.readFileSync("./db/db.json"));
+    const deletedNote = notes.filter((delNote) => delNote.id === req.params.id);
+    fs.writeFileSync("./db/db.json", JSON.stringify(deletedNote));
+    res.json(deletedNote);
+});
 
 module.exports = router;
