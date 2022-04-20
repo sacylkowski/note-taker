@@ -10,7 +10,6 @@
   Click through the homepage and you'll be taken to where the notes are stored.  
   <img src="note-taker.png" alt="image of program running" width="1206" />
 
- <a href="https://drive.google.com/file/d/1irWLAuNMl6eU2Lj8oJ2x1aelxecQ8mwr/view">Click here to see demo video.</a>
 
  ## Built With
  This application is built with: <br />
