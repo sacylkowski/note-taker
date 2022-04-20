@@ -1,3 +1,5 @@
+const path = require("path");
+const router = require("express").Router();
 
 // app.get("/api/notes", (req, res) => {
     
@@ -31,3 +33,5 @@
 //       'Content-Type': 'application/json',
 //     },
 //   });
+
+module.exports = router;
