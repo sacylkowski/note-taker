@@ -1,1 +1,7 @@
-[{"title":"Make Grocery List","text":"Test test test"},{"title":"test","text":"test test","id":"4988e17f-68f3-47d2-ada0-93bc76bd84e0"}]
+[
+    {
+        "title": "Make Grocery List",
+        "text": "test test test test test test",
+        "id": "4988e17f-68f3-47d2-ada0-93bc76bd84e0"
+    }
+]
