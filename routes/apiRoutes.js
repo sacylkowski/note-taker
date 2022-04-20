@@ -26,7 +26,7 @@ router.post("/notes", (req, res) => {
 
 // router.delete("/notes/:id", (req, res) => {
     // const notes = JSON.parse(fs.readFileSync("./db/db.json"));
-    // const deletedNote = note.filter
+    
 //fs.writeFileSync("./db/db.json", JSON.stringify(deletedNote));
 // res.json(deletedNote);
 // });
