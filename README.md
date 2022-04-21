@@ -9,6 +9,8 @@
   ## Usage
   Click through the homepage and you'll be taken to where the notes are stored.  
   <img src="note-taker.png" alt="image of program running" width="1206" />
+  
+  <a href="https://gentle-cliffs-95734.herokuapp.com/">Here is the deloyed site</a>
 
 
  ## Built With
